@@ -10,7 +10,11 @@ def home():
 def add_student_route():
 	if request.method == 'POST':
 		print("Received POST request!")
-	render_template('add.html')
+		student_name = request.form["student_name"]
+		student_year = request.form["year"]
+		add_student(student_name,student_year,False)
+		print(query_all())
+	return render_template('add.html')
 
 
 	
