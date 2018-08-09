@@ -1,3 +1,19 @@
-body {
-     {background-color: red;}
+body
+{
+	text-align: center;
+    background-color: lavenderblush;
+    text-shadow: 0.8px 0.8px chocolate;
+    font-family: "Monospace", Courier New, serif;
+
+}
+h1
+{	
+	font-weight: 900;
+	color: chocolate;
+}
+
+#hi
+{
+	/*display: inline-block;*/
+	vertical-align: middle;
 }
